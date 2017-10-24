@@ -1,0 +1,13 @@
+﻿  solver.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(40): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(49): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(77): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(84): warning C4018: '<': signed/unsigned mismatch
+solver.cpp(281): warning C4018: '<': signed/unsigned mismatch
+solver.cpp(313): warning C4018: '<': signed/unsigned mismatch
+solver.cpp(363): warning C4018: '<': signed/unsigned mismatch
+solver.cpp(411): warning C4018: '<': signed/unsigned mismatch

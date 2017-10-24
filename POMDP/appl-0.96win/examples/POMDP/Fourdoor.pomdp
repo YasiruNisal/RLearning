@@ -1,0 +1,77 @@
+#This is the Assignment 2 part 3 problem in POMDP format
+
+discount: 0.6
+values: reward
+states: D0 D1 D2 D3 DT
+actions: A0 A1 A2 A3 AT
+observations: found not-found
+
+start: uniform
+
+T: * 
+identity
+
+T:AT
+0.0	0.0	0.0	0.0	1.0
+0.0	0.0	0.0	0.0	1.0
+0.0	0.0	0.0	0.0	1.0
+0.0	0.0	0.0	0.0	1.0
+0.0	0.0	0.0	0.0	1.0
+
+O:A0 
+0.85	0.15
+0.1	0.9
+0.1	0.9
+0.1	0.9
+0.5	0.5
+
+O:A1 
+0.1	0.9
+0.85	0.15
+0.1	0.9
+0.1	0.9
+0.5	0.5
+
+O:A2
+0.1	0.9
+0.1	0.9
+0.85	0.15
+0.1	0.9
+0.5	0.5
+
+O:A3
+0.1	0.9
+0.1	0.9
+0.1	0.9
+0.85	0.15
+0.5	0.5
+
+O:AT 
+uniform
+
+R:A0 : * : * : * -3
+
+R:A1 : * : * : * -2
+
+R:A2 : * : * : * -5
+
+R:A3 : * : * : * -1
+
+R:AT : * : * : * -4
+
+R:A0 : D0 : * : found 50
+
+R:A1 : D1 : * : found 50
+
+R:A2 : D2 : * : found 50
+
+R:A3 : D3 : * : found 50
+
+R:AT : DT : * : found 50
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+digraph G
+{
+root [label="Y (s0) 0.2\lA (a3)\l" shape=doublecircle labeljust="l"];

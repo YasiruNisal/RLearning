@@ -1,18 +1,21 @@
-package part2;
+package QL;
 
+import java.io.*;
 import java.text.DecimalFormat;
 import java.util.Random;
+import java.util.Scanner;
 
+// Created by Jacob Carse on 05/08/2016.
+// An implementation of the Q Learning algorithm demonstrated within a Grid World environment.
 public class QLearning {
+    static int height = 4;                                                                                                  // Height of the Grid World.
+    static int width = 4;                                                                                                   // width of the Grid World.
+    static int[][] grid;                                                                                                // Matrix that represents the Grid World
 
-	static int height = 4;                                                                                                 
-    static int width = 4;                                                                                                  
-    static int[][] grid;                                                                                               
-
-    static int[][] actions = new int[height*width][];;                                                                                        
-
-    static double[][] rewards;                                                                                         
-    static int goal;                                                                                                   
+    static int[][] actions;                                                                                             // Matrix with the list of actions for each state.
+ 
+    static double[][] rewards;                                                                                          // Matrix with the reward for each action.
+    static int goal;                                                                                                    // The Goal state.
 
     static int StartX = 0;
     static int StartY = 0;
@@ -33,242 +36,69 @@ public class QLearning {
     static double nonReward = -1;
     static double unsafeZones = -10;
     
-    static double[][] qScores = new double[height*width][height*width];                                                                                         
-    static double learningRate = 0.1;                                                                                         
-    static double discountRate = 0.85;                                                                                        
-    static int episodes = 20;                                                                                                
+    static double[][] qScores = new double[height*width][height*width];                                                                                          // Matrix for each Q Score from each sate to another state.
+    static double learningRate = 0.1;                                                                                         // The rate the algorithm learns new information.
+    static double discountRate = 0.85;                                                                                         // The rate in which the algorithm ignores future actions.
+    static int episodes = 20;                                                                                                // The number of episodes that need to be ran.
 
-    static int[] policy;   
-    
-    public static void main(String[] args){
-    	//First build a grid with numbers going from 1-16 (4x4 grid)
-    	 grid = new int[height][width];                                                                                  
-         int counter = 0;
-         for (int i = 0; i < height; i++) {
-             for (int j = 0; j < width; j++) {
-                 grid[i][j] = counter;
-                 counter++;
-             }
-         }
-         
-         
-         //next we want to set the actions that can be taken at each step
-         //it will be up, down, left, right
-         //(-1 means you cannot move in that direction)
-         //others show the grid you can move to in all four directions
-         for (int i = 0; i < height; i++){
-        	 for (int j = 0; j < width; j++){
-        		 int[] action = new int[4];
-        		 if(i != 0){//up (-1 means you cannot move in that direction)
-        			 action[0] = (grid[i-1][j]);
-        		 }else{
-        			 action[0] = -1;
-        		 }
-        		 if(j != 0){//left
-        			 action[1] = (grid[i][j-1]);
-        		 }else{
-        			 action[1] = -1;
-        		 }if(i != height-1){//down
-        			 action[2] = grid[i+1][j];
-        		 }else{
-        			 action[2] = -1;
-        		 }if(j != width -1){//right
-        			 action[3] = grid[i][j+1];
-        		 }else{
-        			 action[3] = -1;
-        		 }
-        		 actions[grid[i][j]] = action;
-        	 }
-         }
-         
-         rewards = new double[height*width][height*width];
-         goal = grid[EndY][EndX]; //set the goal state 
-         unsafeZ1 = grid[UZ1X][UZ1Y];
-         unsafeZ2 = grid[UZ2X][UZ2Y];
-         unsafeZ3 = grid[UZ3X][UZ3Y];
-         // Sets the goal state from the Grid.
-         //sets the reward to -1 in all other locations
-         //needs to add the functionality where the black boxes have a higher - value
-         if (EndX != 0) {
-        	 rewards[goal - 1][goal] = reward;
-         }                                                                 
-         if (EndY != 0) {
-        	 rewards[goal - width][goal] = reward;
-         }
-         if (EndX != width-1) {
-        	 rewards[goal + 1][goal] = reward;
-         }
-         if (EndY != height-1) {
-        	 rewards[goal + width][goal] = reward;
-         }
-         
-       //setting the rewards for the first black box
-         if (UZ1X != 0) {
-        	 rewards[unsafeZ1 - 1][unsafeZ1] = unsafeZones;
-         }                                                               
-         if (UZ1Y != 0) {
-        	 rewards[0][1] = unsafeZones;
-         }
-         if (UZ1X != width-1) {
-        	 rewards[unsafeZ1 + 1][unsafeZ1] = unsafeZones;
-         }
-         if (UZ1Y != height-1) {
-        	 rewards[unsafeZ1 + width][unsafeZ1] = unsafeZones;
-         }
-         //System.out.println(rewards[unsafeZ1 + 1][unsafeZ1] + "- " +rewards[unsafeZ1 + 1][unsafeZ1] +"- " + rewards[unsafeZ1 + width][unsafeZ1] +" 1" );
-       //setting the rewards for the second black box
-         if (UZ2X != 0) {
-        	 rewards[unsafeZ2 - 1][unsafeZ2] = unsafeZones;
-         }                                                                 
-         if (UZ2Y != 0) {
-        	 rewards[unsafeZ2 - width][unsafeZ2] = unsafeZones;
-         }
-         if (UZ2X != width-1) {
-        	 rewards[unsafeZ2 + 1][unsafeZ2] = unsafeZones;
-         }
-         if (UZ2Y != height-1) {
-        	 rewards[unsafeZ2 + width][unsafeZ2] = unsafeZones;
-         }
-         //System.out.println(rewards[unsafeZ2 - 1][unsafeZ2] + "- " +rewards[unsafeZ2 - width][unsafeZ2] +"- " + rewards[unsafeZ2 + 1][unsafeZ2] +"-" + rewards[unsafeZ2 + width][unsafeZ2] + " 2");
-         //setting the rewards for the third black box
-         if (UZ3X != 0) {
-        	 rewards[unsafeZ3 - 1][unsafeZ3] = unsafeZones;
-         }                                                                
-         if (UZ3Y != 0) {
-        	 rewards[unsafeZ3 - width][unsafeZ3] = unsafeZones;
-         }
-         if (UZ3X != width-1) {
-        	 rewards[unsafeZ3 + 1][unsafeZ3] = unsafeZones;
-         }
-         if (UZ3Y != height-1) {
-        	 rewards[unsafeZ3 + width][unsafeZ3] = unsafeZones;
-         }
-         
-         if (nonReward == 0) {                                      
-             for (int i = 0; i < rewards.length; i++) {
-                 for (int j = 0; j < rewards[i].length; j++) {
-                     if (rewards[i][j] == 0)
-                         rewards[i][j] = nonReward;
-                 }
-             }
-         }
+    static int[] policy;                                                                                                // Array that states the best action for each state.
 
-         actions[goal] = new int[] {goal};  
-         
-         
-         QLalgorithm();
-         makePolicy();  
-         run(); 
-         //THis for loops prints out the policy
-         for (int i = 0; i < policy.length; i++) {                                                                   
-             if (i == goal){
-                 System.out.print((i) + " to " + " Goal!");
-             }else if(i == unsafeZ1 || i == unsafeZ2 || i == unsafeZ3){
-            	 System.out.print((i) + " to " + " Unsafe!");
-         	 }else{
-            	 System.out.print((i) + " to " + (policy[i]));
-             }
-             System.out.println();
-         }
-         
-         //This for loop prints out the q values associated with transitions
-         DecimalFormat decimal = new DecimalFormat("0.00");
-         System.out.print("\t\t\t");
-         for (int i = 0; i < qScores.length; i++) {  
-        	 System.out.print((i) + "\t");
-         }
-         System.out.println();
-         for (int i = 0; i < qScores.length; i++) {                                                                  
-        	 System.out.print("Current State " + (i) + ":\t");
-             if (i != goal) {
-                 for (int j = 0; j < qScores[i].length; j++) {                                                      
-                	 //System.out.println(qScores.length + " - " + i + " - " + qScores[i].length);
-                	 System.out.print(Double.parseDouble(decimal.format(qScores[i][j])) + "\t");                           
-                 }
-                 System.out.println();
-             }
-             else {
-            	 System.out.print("END!");
-            	 System.out.println();
-             }
-         }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        buildGrid();                                                                                             // Sets up the Grid World.
+        System.out.println("Build " + height + "x" + width + " Grid World.\n");
+
+        setActions();      
+        //printintArray(actions);// Sets the Actions for each state within the Grid World.
+        System.out.println("Actions for each state have been set.\n");
+
+        setRewards(); 
+        printDblArray(rewards);
+        // Sets the Rewards for each state within the Grid World.
+        System.out.println("Rewards set with " + (goal + 1) + " as the goal state.\n");
+
+        qLeaning();                                                                                                     // Generates the Q Scores using the Q Learning algorithm and then saves to a text file.
+        saveQScores();
+        System.out.println("Q Scores have been calculated and saved to Q_Scores.txt\n");
+
+        makePolicy();                                                                                                   // Generate the optimal policy based on the Q Scores and then saves to a text file.
+        savePolicy();
+        System.out.println("Policy has been created and saved to Policy.txt\n");
+
+        run();                                                                                                   // Navigates the Grid World from a starting position to the goal using the policy.
     }
-    
-    //This is the q-learning algorithm that calculates 
-    //the q values which determine the transitions from different states
-    public static void QLalgorithm() {
-        Random random = new Random();
 
-        for (int i = 0; i < episodes; i++) {                                                                            
-            int state = random.nextInt(height*width - 1);                                                              
-            while (state != goal) {
-                int[] stateActions = actions[state];                                                                    
-                int action = stateActions[random.nextInt(stateActions.length)];                                         
-                while (action == -1) {
-                    action = stateActions[random.nextInt(stateActions.length)];
-                }
-                //get the previous score
-                double q = qScores[state][action];  
-                //get the reward
-                double reward = rewards[state][action];                                                                 
-
-                double maxQ = maxQ(action);                                                                             
-                double score = q + learningRate * (reward + discountRate * maxQ - q);                                   
-                qScores[state][action] = score;                                                                         
-
-                state = action;//go to the new state
-                
-            }
-        }
+    // Builds the Grid World bases on inputted dimensions.
+    public static void buildGrid() {
         
-        
-    }
-    
- // Creates the policy based on Q scores.
-    public static void makePolicy() {
-        policy = new int[height*width];
-        for (int i = 0; i < qScores.length; i++) {                                                                      
-            double max = Double.MIN_VALUE;
-            int index = -1;
-            for (int j = 0; j < qScores[i].length; j++) {                                                               
-                if (qScores[i][j] > max) {                                                                             
-                    index = j;                                                                                          
-                    max = qScores[i][j];                                                                                
-                }
+        grid = new int[height][width];                                                                                  // Cycles through the Grid World setting a integer for each possible state.
+        int counter = 0;
+        for (int n = 0; n < height; n++) {
+            for (int m = 0; m < width; m++) {
+                grid[n][m] = counter;
+                counter++;
             }
-            policy[i] = index;                     
         }
     }
-    
-    //This prints out the path from the starting point to the end goal
-    public static void run() {
 
-        int state = grid[StartY][StartX];                                                                                         
-        while (state != goal) {
-        	if(state != -1){
-	            System.out.print("From: " + (state));
-	            state = policy[state];     
-	            
-	            System.out.print(" To: " + (state) + "\n");
-        	}else{
-        		System.out.print(" Please Re-Run the Progam");
-        	}
-        }
-    }
-    
-    //use this function to find the maximum Q value
-    //helper function used in the QL algorithm
-    public static double maxQ(int state) {
-        double max = Double.MIN_VALUE;                                                                                 
-        int[] futureActions = actions[state];                                                                           
-        for (int i = 0; i < futureActions.length; i++) {                                                                
-            if (futureActions[i] != -1) {
-                double value = qScores[state][futureActions[i]];                                                        
-                if (value > max)                                                                                        
-                    max = value;
+    // Finds all possible actions for each state within the Grid World.
+    public static void setActions() {
+        actions = new int[height*width][];
+        
+        for (int n = 0; n < height; n++) {                                                                              // Cycles through each of the states and finds each possible action.
+            for (int m = 0; m < width; m++) {
+                int[] action = new int[4];
+                if (n != 0) {action[0] = (grid[n-1][m]);} else {action[0] = -1;} 
+                // Up action
+                //System.out.println(action[0]);
+                if (m != 0) {action[1] = (grid[n][m-1]);} else {action[1] = -1;}                                        // Left action
+                if (n != height-1) {action[2] = (grid[n+1][m]);} else {action[2] = -1;}                                 // Down action
+                if (m != width-1) {action[3] = (grid[n][m+1]);} else {action[3] = -1;}                                  // Right action
+                actions[grid[n][m]] = action;
             }
         }
-        return max;
+       
     }
     
     public static void printintArray(int[][] arr){
@@ -282,12 +112,173 @@ public class QLearning {
     }
     
     public static void printDblArray(double[][] arr){
-    	for (int i = 0; i < height; i++){
-    		for(int j = 0; j < width; j++){
+    	for (int i = 0; i < arr.length; i++){
+    		for(int j = 0; j < arr.length; j++){
     			System.out.print(arr[j][i]+ "\t");
     		}
     		System.out.println("");
     		
     	}
+    }
+
+    // Sets the goal and reward matrix.
+    public static void setRewards() {
+        
+        rewards = new double[height*width][height*width];
+        goal = grid[EndY][EndX];                                                                                              // Sets the goal state from the Grid.
+        unsafeZ1 = grid[UZ1X][UZ1Y];
+        unsafeZ2 = grid[UZ2X][UZ2Y];
+        unsafeZ3 = grid[UZ3X][UZ3Y];
+        System.out.println(unsafeZ1 + "- " +unsafeZ2 +"- " + unsafeZ3 +"-" + goal);
+        
+        if (EndX != 0) {rewards[goal - 1][goal] = reward;}                                                                 // Sets the rewards for the goal position.
+        if (EndY != 0) {rewards[goal - width][goal] = reward;}
+        if (EndX != width-1) {rewards[goal + 1][goal] = reward;}
+        if (EndY != height-1) {rewards[goal + width][goal] = reward;}
+        //+++++++++++++++++++++++++++the following are for the unsafe zones+++++++
+        
+        if (UZ1X != 0) {rewards[unsafeZ1 - 1][unsafeZ1] = unsafeZones;}                                                                 // Sets the rewards for the goal position.
+        if (UZ1Y != 0) {rewards[0][1] = unsafeZones;}
+        if (UZ1X != width-1) {rewards[unsafeZ1 + 1][unsafeZ1] = unsafeZones;}
+        if (UZ1Y != height-1) {rewards[unsafeZ1 + width][unsafeZ1] = unsafeZones;}
+        //System.out.println(rewards[unsafeZ1 + 1][unsafeZ1] + "- " +rewards[unsafeZ1 + 1][unsafeZ1] +"- " + rewards[unsafeZ1 + width][unsafeZ1] +" 1" );
+        
+        if (UZ2X != 0) {rewards[unsafeZ2 - 1][unsafeZ2] = unsafeZones;}                                                                 // Sets the rewards for the goal position.
+        if (UZ2Y != 0) {rewards[unsafeZ2 - width][unsafeZ2] = unsafeZones;}
+        if (UZ2X != width-1) {rewards[unsafeZ2 + 1][unsafeZ2] = unsafeZones;}
+        if (UZ2Y != height-1) {rewards[unsafeZ2 + width][unsafeZ2] = unsafeZones;}
+        //System.out.println(rewards[unsafeZ2 - 1][unsafeZ2] + "- " +rewards[unsafeZ2 - width][unsafeZ2] +"- " + rewards[unsafeZ2 + 1][unsafeZ2] +"-" + rewards[unsafeZ2 + width][unsafeZ2] + " 2");
+
+        if (UZ3X != 0) {rewards[unsafeZ3 - 1][unsafeZ3] = unsafeZones;}                                                                 // Sets the rewards for the goal position.
+        if (UZ3Y != 0) {rewards[unsafeZ3 - width][unsafeZ3] = unsafeZones;}
+        if (UZ3X != width-1) {rewards[unsafeZ3 + 1][unsafeZ3] = unsafeZones;}
+        if (UZ3Y != height-1) {rewards[unsafeZ3 + width][unsafeZ3] = unsafeZones;}
+        //System.out.println(rewards[unsafeZ3 - 1][unsafeZ3] + "- " +rewards[unsafeZ3 - width][unsafeZ3] +"- " + rewards[unsafeZ3 + 1][unsafeZ3] +"-" + rewards[unsafeZ3 + width][unsafeZ3] + " 3");
+        
+        if (nonReward == 0) {                                                                                           // Sets all other rewards to user preference.
+            for (int i = 0; i < rewards.length; i++) {
+                for (int j = 0; j < rewards[i].length; j++) {
+                    if (rewards[i][j] == 0)
+                        rewards[i][j] = nonReward;
+                }
+            }
+        }
+
+        actions[goal] = new int[] {goal}; 
+        // Removes possible actions from goal.
+//        actions[unsafeZ1] = new int[]{unsafeZ1};
+//        actions[unsafeZ2] = new int[]{unsafeZ2};
+//        actions[unsafeZ3] = new int[]{unsafeZ3};
+    }
+
+    // Runs the Q Learning algorithm to generate scores.
+    public static void qLeaning() {
+        Random random = new Random();
+
+        for (int i = 0; i < episodes; i++) {                                                                            // Runs for each episode.
+            int state = random.nextInt(height*width - 1);                                                               // Gets a random state.
+            while (state != goal) {
+            	
+                int[] stateActions = actions[state];                                                                    // Gets actions for the state.
+                //System.out.println(stateActions[0]);
+                int action = stateActions[random.nextInt(stateActions.length)];                                         // Selects a random action.
+                while (action == -1) {
+                    action = stateActions[random.nextInt(stateActions.length)];
+                }
+
+                double q = qScores[state][action];                                                                      // Gets the previous Q Score for the action.
+                double reward = rewards[state][action];                                                                 // Gets the reward for the action.
+                double maxQ = maxQ(action);                                                                             // Finds the maximum Q Score from the future action.
+                //System.out.println(q + " Qvalue " + reward + " maxQ "+ maxQ);
+                double score = q + learningRate * (reward + discountRate * maxQ - q);                                   // Calculates a new Q Score for the action.
+                qScores[state][action] = score;                                                                         // Sets the new score.
+
+                state = action;                                                                                         // Transitions to new state.
+            }
+        }
+    }
+
+    // Find maximum Q score for future state.
+    public static double maxQ(int state) {
+        double max = Double.MIN_VALUE;                                                                                  // Sets the max to minimum value.
+        int[] futureActions = actions[state];                                                                           // Gets all the states actions.
+        for (int i = 0; i < futureActions.length; i++) {                                                                // Cycles through each action.
+            if (futureActions[i] != -1) {
+                double value = qScores[state][futureActions[i]];                                                        // Gets the Q score from the action.
+                if (value > max)                                                                                        // Compares the q score to the max.
+                    max = value;
+            }
+        }
+        return max;
+    }
+
+    // Saves the Q Scores to a text file.
+    public static void saveQScores() {
+        DecimalFormat decimal = new DecimalFormat("0.00");
+        try {
+            BufferedWriter out = new BufferedWriter(new FileWriter("Q_Scores.txt"));                                    // Opens a File Writer.
+            for (int i = 0; i < qScores.length; i++) {                                                                  // For each state.
+                out.write((i + 1) + ": ");
+                if (i != goal) {
+                    for (int j = 0; j < qScores[i].length; j++) {                                                       // For each action.
+                        out.write(Double.parseDouble(decimal.format(qScores[i][j])) + ", ");                            // Write the Q Score.
+                    }
+                    out.newLine();
+                }
+                else {
+                    out.write("GOAL!");
+                    out.newLine();
+                }
+            }
+            out.close();
+        }
+        catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
+    // Creates the policy based on Q scores.
+    public static void makePolicy() {
+        policy = new int[height*width];
+        for (int i = 0; i < qScores.length; i++) {                                                                      // For each state.
+            double max = Double.MIN_VALUE;
+            int index = -1;
+            for (int j = 0; j < qScores[i].length; j++) {                                                               // For each action.
+                if (qScores[i][j] > max) {                                                                              // Compare Q score against max
+                    index = j;                                                                                          // Sets the index.
+                    max = qScores[i][j];                                                                                // Sets new max.
+                }
+            }
+            policy[i] = index;                                                                                          // Sets the policy for the state.
+        }
+    }
+
+    // Saves the policy to a text file.
+    public static void savePolicy() {
+        try {
+            BufferedWriter out = new BufferedWriter(new FileWriter("Policy.txt"));                                      // Sets up File Writer
+            for (int i = 0; i < policy.length; i++) {                                                                   // For each state.
+                if (i != goal)
+                    out.write((i + 1) + " -> " + (policy[i] + 1));                                                      // Write the optimal action.
+                else
+                    out.write((i + 1) + " ->" + " Goal!");
+                out.newLine();
+            }
+            out.close();
+        }
+        catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
+    // Uses the policy to navigate from a given start point to a goal point.
+    public static void run() {
+
+        int state = grid[StartY][StartX];                                                                                         // Gets the state from the starting position.
+        while (state != goal) {
+            System.out.print("From: " + (state + 1));
+            state = policy[state];                                                                                      // Performs optimal action to next state.
+            System.out.print(" To: " + (state + 1) + "\n");
+        }
     }
 }

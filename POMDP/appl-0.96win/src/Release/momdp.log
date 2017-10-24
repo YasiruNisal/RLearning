@@ -1,0 +1,588 @@
+﻿  BinManager.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Algorithms\SARSOP\BinManager.cpp(71): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+Algorithms\SARSOP\BinManager.cpp(102): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+Algorithms\SARSOP\BinManager.cpp(137): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+Algorithms\SARSOP\BinManager.cpp(153): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+Algorithms\SARSOP\BinManager.cpp(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+Algorithms\SARSOP\BinManager.cpp(180): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  BinManagerSet.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  Sample.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Algorithms\SARSOP\Sample.cpp(104): warning C4018: '<': signed/unsigned mismatch
+  SampleBP.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(40): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(49): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(77): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(84): warning C4018: '<': signed/unsigned mismatch
+Algorithms\SARSOP\SampleBP.cpp(26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SARSOP.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(40): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(49): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(77): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(84): warning C4018: '<': signed/unsigned mismatch
+Algorithms\SARSOP\SARSOP.cpp(542): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+  SARSOPPrune.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(40): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(49): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(77): warning C4018: '<': signed/unsigned mismatch
+C:\Users\yasir\Desktop\2017\Compsys725\Assignment2\appl-0.96win\src\Bounds\AlphaPlanePoolSet.h(84): warning C4018: '<': signed/unsigned mismatch
+  AlphaPlane.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(40): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(84): warning C4018: '<': signed/unsigned mismatch
+  AlphaPlanePool.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(40): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(84): warning C4018: '<': signed/unsigned mismatch
+  AlphaPlanePoolSet.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(40): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(84): warning C4018: '<': signed/unsigned mismatch
+Bounds\AlphaPlanePoolSet.cpp(28): warning C4018: '<': signed/unsigned mismatch
+  AlphaVectorPolicy.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(40): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(84): warning C4018: '<': signed/unsigned mismatch
+Bounds\AlphaVectorPolicy.cpp(155): warning C4018: '>=': signed/unsigned mismatch
+Bounds\AlphaVectorPolicy.cpp(53): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+Bounds\AlphaVectorPolicy.cpp(165): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1192): note: see declaration of 'fscanf'
+Bounds\AlphaVectorPolicy.cpp(178): warning C4477: 'sscanf' : format string '%f' requires an argument of type 'float *', but variadic argument 2 has type 'double *'
+  Bounds\AlphaVectorPolicy.cpp(178): note: consider using '%lf' in the format string
+Bounds\AlphaVectorPolicy.cpp(178): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+  BackupAlphaPlaneMOMDP.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(40): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(84): warning C4018: '<': signed/unsigned mismatch
+  BackupAlphaPlaneMOMDPLite.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  BackupBeliefValuePairMOMDP.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(40): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(84): warning C4018: '<': signed/unsigned mismatch
+  BackupBeliefValuePairMOMDPLite.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  BeliefValuePair.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  BeliefValuePairPool.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  BeliefValuePairPoolSet.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  BlindLBInitializer.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(40): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(84): warning C4018: '<': signed/unsigned mismatch
+  FastInfUBInitializer.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  FullObsUBInitializer.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Bounds\FullObsUBInitializer.cpp(220): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Compiling...
+  PruneAlphaPlane.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(40): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\bounds\AlphaPlanePoolSet.h(84): warning C4018: '<': signed/unsigned mismatch
+  PruneBeliefValuePair.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  Actions.cpp
+  Belief.cpp
+  BeliefCache.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  BeliefCacheSet.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  BeliefForest.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Core\BeliefForest.cpp(17): warning C4553: '==': operator has no effect; did you intend '='?
+  BeliefTreeNode.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  BeliefWithState.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  MObject.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  Observations.cpp
+  States.cpp
+  UniqueBeliefHeap.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Core\UniqueBeliefHeap.cpp(81): warning C4018: '<': signed/unsigned mismatch
+  VariableContainer.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Core\VariableContainer.cpp(22): warning C4018: '<': signed/unsigned mismatch
+Core\VariableContainer.cpp(29): warning C4018: '<': signed/unsigned mismatch
+Core\VariableContainer.cpp(33): warning C4018: '<': signed/unsigned mismatch
+Core\VariableContainer.cpp(50): warning C4018: '>=': signed/unsigned mismatch
+Core\VariableContainer.cpp(72): warning C4018: '<': signed/unsigned mismatch
+Core\VariableContainer.cpp(88): warning C4018: '<': signed/unsigned mismatch
+Core\VariableContainer.cpp(96): warning C4018: '<': signed/unsigned mismatch
+Core\VariableContainer.cpp(99): warning C4018: '<': signed/unsigned mismatch
+Core\VariableContainer.cpp(114): warning C4018: '>=': signed/unsigned mismatch
+  EvaluationEngine.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Evaluator\EvaluationEngine.cpp(81): warning C4018: '<': signed/unsigned mismatch
+  EvaluatorSampleEngine.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Evaluator\EvaluatorSampleEngine.cpp(109): warning C4018: '<': signed/unsigned mismatch
+  DenseVector.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  MathLib.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+MathLib\MathLib.cpp(74): warning C4018: '<': signed/unsigned mismatch
+MathLib\MathLib.cpp(94): warning C4018: '<': signed/unsigned mismatch
+MathLib\MathLib.cpp(219): warning C4018: '<': signed/unsigned mismatch
+MathLib\MathLib.cpp(253): warning C4018: '<': signed/unsigned mismatch
+MathLib\MathLib.cpp(384): warning C4018: '<': signed/unsigned mismatch
+MathLib\MathLib.cpp(476): warning C4804: '<': unsafe use of type 'bool' in operation
+MathLib\MathLib.cpp(476): warning C4018: '<': signed/unsigned mismatch
+MathLib\MathLib.cpp(477): warning C4804: '<': unsafe use of type 'bool' in operation
+MathLib\MathLib.cpp(477): warning C4018: '<': signed/unsigned mismatch
+MathLib\MathLib.cpp(560): warning C4018: '<': signed/unsigned mismatch
+  SparseMatrix.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+MathLib\SparseMatrix.cpp(13): error C2146: syntax error: missing ')' before identifier 'or'
+MathLib\SparseMatrix.cpp(13): error C2065: 'or': undeclared identifier
+MathLib\SparseMatrix.cpp(13): error C2059: syntax error: ')'
+MathLib\SparseMatrix.cpp(14): error C2143: syntax error: missing ';' before 'return'
+MathLib\SparseMatrix.cpp(34): error C2146: syntax error: missing ')' before identifier 'or'
+MathLib\SparseMatrix.cpp(34): error C2065: 'or': undeclared identifier
+MathLib\SparseMatrix.cpp(34): error C2059: syntax error: ')'
+MathLib\SparseMatrix.cpp(35): error C2143: syntax error: missing ';' before 'return'
+MathLib\SparseMatrix.cpp(65): warning C4018: '<': signed/unsigned mismatch
+MathLib\SparseMatrix.cpp(100): warning C4018: '<': signed/unsigned mismatch
+MathLib\SparseMatrix.cpp(159): error C2146: syntax error: missing ')' before identifier 'or'
+MathLib\SparseMatrix.cpp(159): error C2065: 'or': undeclared identifier
+MathLib\SparseMatrix.cpp(159): error C2146: syntax error: missing ';' before identifier 'cols'
+MathLib\SparseMatrix.cpp(159): error C2059: syntax error: ')'
+MathLib\SparseMatrix.cpp(161): error C2059: syntax error: ';'
+MathLib\SparseMatrix.cpp(163): error C2059: syntax error: 'else'
+MathLib\SparseMatrix.cpp(163): error C2143: syntax error: missing ';' before '{'
+MathLib\SparseMatrix.cpp(163): error C2447: '{': missing function header (old-style formal list?)
+MathLib\SparseMatrix.cpp(238): warning C4018: '<': signed/unsigned mismatch
+MathLib\SparseMatrix.cpp(241): error C2059: syntax error: '}'
+MathLib\SparseMatrix.cpp(241): error C2143: syntax error: missing ';' before '}'
+  SparseVector.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+MathLib\SparseVector.cpp(486): warning C4477: 'printf' : format string '%X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'const momdp::SparseVector *const '
+MathLib\SparseVector.cpp(491): warning C4477: 'printf' : format string '%X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  Generating Code...
+  Compiling...
+  BeliefTransitionMOMDP.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  BeliefTransitionMOMDPLite.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  BooleanVariable.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Models\MOMDP\BooleanVariable.cpp(19): warning C4018: '<': signed/unsigned mismatch
+Models\MOMDP\BooleanVariable.cpp(47): warning C4018: '<': signed/unsigned mismatch
+Models\MOMDP\BooleanVariable.cpp(68): warning C4018: '<': signed/unsigned mismatch
+  IVariable.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  IVariableValue.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  MOMDP.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  MOMDPLite.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  ObservationProbabilities.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  Rewards.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  StateTransitionX.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  StateTransitionXXpY.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  StateTransitionXY.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  StateTransitionY.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  Variable.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Models\MOMDP\Variable.cpp(16): warning C4018: '<': signed/unsigned mismatch
+Models\MOMDP\Variable.cpp(44): warning C4018: '<': signed/unsigned mismatch
+Models\MOMDP\Variable.cpp(56): warning C4018: '<': signed/unsigned mismatch
+  VariableCombined.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Models\MOMDP\VariableCombined.cpp(30): warning C4018: '<': signed/unsigned mismatch
+Models\MOMDP\VariableCombined.cpp(37): warning C4018: '<': signed/unsigned mismatch
+Models\MOMDP\VariableCombined.cpp(40): warning C4018: '<': signed/unsigned mismatch
+Models\MOMDP\VariableCombined.cpp(56): warning C4018: '>=': signed/unsigned mismatch
+  VariableRelation.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  VariableValue.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  GlobalResource.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+OfflineSolver\GlobalResource.cpp(46): warning C4244: '=': conversion from 'time_t' to 'int', possible loss of data
+  solverUtils.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+OfflineSolver\solverUtils.cpp(92): warning C4244: '=': conversion from 'time_t' to 'int', possible loss of data
+OfflineSolver\solverUtils.cpp(365): warning C4244: '=': conversion from 'time_t' to 'int', possible loss of data
+  pomdp_spec.tab.cc
+include/pomdp_spec.tab.cc(1306): warning C4065: switch statement contains 'default' but no 'case' labels
+pomdp_spec.y(1497): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+pomdp_spec.y(1508): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  Generating Code...
+  Compiling...
+  pomdp_spec.yy.cc
+include/pomdp_spec.yy.cc(1323): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\corecrt_io.h(523): note: see declaration of 'read'
+include/pomdp_spec.yy.cc(1668): warning C4996: 'isatty': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _isatty. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\corecrt_io.h(491): note: see declaration of 'isatty'
+  Parser.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  POMDP.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Parser\Cassandra\POMDP.cpp(63): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(431): note: see declaration of 'strtok'
+Parser\Cassandra\POMDP.cpp(377): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(387): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(404): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(415): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(426): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(465): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\string.h(530): note: see declaration of 'strdup'
+Parser\Cassandra\POMDP.cpp(477): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(489): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(502): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(600): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(607): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(620): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(628): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(636): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(674): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(684): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+Parser\Cassandra\POMDP.cpp(694): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+  pomdpCassandraWrapper.cpp
+  ParserSelector.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  FactoredPomdp.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Parser\POMDPX\FactoredPomdp.cpp(102): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+Parser\POMDPX\FactoredPomdp.cpp(131): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+Parser\POMDPX\FactoredPomdp.cpp(161): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+Parser\POMDPX\FactoredPomdp.cpp(326): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(559): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1082): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1086): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1434): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1440): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1588): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1594): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1629): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1634): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1702): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1709): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1715): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1716): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(1784): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2037): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2289): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2296): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2347): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2352): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2516): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2607): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2612): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2790): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2795): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2876): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2877): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2878): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(2993): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3049): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3201): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3206): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3470): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3475): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3669): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3677): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3688): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3696): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3712): warning C4018: '>=': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3733): warning C4018: '>=': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3754): warning C4018: '>=': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3772): warning C4018: '>=': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3788): warning C4018: '>=': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3809): warning C4018: '>=': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3830): warning C4018: '>=': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3857): warning C4018: '>=': signed/unsigned mismatch
+Parser\POMDPX\FactoredPomdp.cpp(3877): warning C4018: '>=': signed/unsigned mismatch
+  Function.cpp
+  Unknown compiler version - please run the configure tests and report the results
+Parser\POMDPX\Function.cpp(166): warning C4018: '<': signed/unsigned mismatch
+  ObsAct.cpp
+  oldPOMDP.cpp
+c1xx : fatal error C1083: Cannot open source file: 'Parser\POMDPX\oldPOMDP.cpp': No such file or directory
+  PreCEntry.cpp
+  PreCMatrix.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  SparseEntry.cpp
+  SparseTable.cpp
+  Unknown compiler version - please run the configure tests and report the results
+Parser\POMDPX\SparseTable.cpp(34): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(100): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(114): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(133): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(151): warning C4018: '>=': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(193): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(225): warning C4018: '<=': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(229): warning C4018: '>=': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(239): warning C4018: '>=': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(251): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(269): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(281): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(284): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(290): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(416): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(424): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(435): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(438): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(457): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(458): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(499): warning C4018: '<': signed/unsigned mismatch
+Parser\POMDPX\SparseTable.cpp(480): warning C4101: 'tempEntryValue': unreferenced local variable
+Parser\POMDPX\SparseTable.cpp(537): warning C4018: '<': signed/unsigned mismatch
+  State.cpp
+  StateObsAct.cpp
+Parser\POMDPX\StateObsAct.cpp(20): warning C4018: '<': signed/unsigned mismatch
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  SimulationEngine.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+Simulator\SimulationEngine.cpp(120): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\parser\pomdpx\sparsetable.cpp(525): warning C4715: 'SparseTable::findPosition': not all control paths return a value
+  Compiling...
+  CPMemUtils.cpp
+Utils\CPMemUtils.cpp(37): warning C4244: 'return': conversion from 'DWORDLONG' to 'unsigned long', possible loss of data
+  InfoLog.cpp
+  md5.cpp
+  md5wrapper.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  SimulationRewardCollector.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): error C2664: 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>::_Vector_const_iterator(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &&)': cannot convert argument 1 from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>> &'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: Reason: cannot convert from 'int' to 'const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<momdp::SparseVector_Entry>>>'
+  c:\users\yasir\desktop\2017\compsys725\assignment2\appl-0.96win\src\mathlib\SparseMatrix.h(24): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  StatsCollector.cpp
+  Generating Code...
